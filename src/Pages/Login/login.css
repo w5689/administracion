@@ -1,0 +1,15 @@
+#login-container {
+  background: url(../login0.jpg) 20vw center / cover no-repeat;
+  transition: background-image 1000ms;
+}
+
+@media only screen and (min-width: 767px) {
+  #loginColumn-container {
+    border-right: 5px solid #00b5ad;
+  }
+}
+
+#loginColumn {
+  height: 100vh;
+  background-color: white;
+}

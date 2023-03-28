@@ -1,5 +1,12 @@
-import { Button } from "semantic-ui-react";
+import "semantic-ui-css/semantic.min.css";
+import Login from "./Pages/Login";
+import { Template } from "./template";
 
-export default function App() {
-  return <Button>app</Button>;
+function App() {
+  const login = sessionStorage.getItem("isLoggedIn");
+
+  // return login !== "true" ? <Login /> : <Template />;
+  return <Template />;
 }
+
+export default App;
